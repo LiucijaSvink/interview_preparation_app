@@ -245,7 +245,7 @@ def generate_validation_response(
         print(f"Error generating validation: {str(e)}")
         return "error"
 
-# Functions and inouts for prompts
+# Functions and inputs for prompts
 def get_system_prompt(interview_type: str) -> str:
     """
     Generates a system-level prompt tailored to a specific interview type.
